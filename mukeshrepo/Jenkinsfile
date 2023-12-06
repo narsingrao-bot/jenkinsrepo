@@ -29,13 +29,5 @@ pipeline
         }
     }
 
-    post
-    {
-
-    	always
-    	{
-    		emailext body: '', subject: 'maven build', to: 'sfaraz106@gmail.com'
-    	}
-
-    }
+    
 }

@@ -8,10 +8,10 @@
 
 	<dependencies>
 		<dependency>
-		<groupId>org.testng</groupId>
-        <artifactId>testng</artifactId>
-        <version>7.8.0</version>
-        <scope>test</scope>
+			<groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+           <version>7.8.0</version>
+            <scope>test</scope>
 
 		</dependency>
 
@@ -32,7 +32,6 @@
         </dependency>
 
 
-
 	</dependencies>
 
 	<build>
@@ -46,9 +45,7 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
-					
 					<systemPropertyVariables>
-					
 					<browser>${Browser}</browser>
 					
 					</systemPropertyVariables>
